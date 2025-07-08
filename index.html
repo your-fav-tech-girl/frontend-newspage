@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor |News Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['Inter', 'sans-serif'],
+        },
+      }
+    }
+  }
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Miniver&display=swap"
+      rel="stylesheet"
+    />
+   -->
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./assets/images/logo.svg" />
+      </div>
+     <button class="menu-btn" aria-label="Toggle Menu" onclick="toggleMenu()">
+    <span class="menu-icon"></span>
+  </button>
+
+       <nav class="navbar" id="navlinks">
+        <a href="#">Home</a>
+        <a href="#">New</a>
+        <a href="#">Popular</a>
+        <a href="#">Trending</a>
+        <a href="#">Categories</a>
+      </nav>
+    </header>
+
+    <section id="main-container">
+      <section class="grid-container">
+        <div class="grid-one">
+          <img src="./assets/images/image-web-3-desktop.jpg" />
+        </div>
+        <div class="grid-two">
+          <h1>New</h1>
+
+          <article>
+            <h2>Hydrogen VS Electric Cars</h2><br>
+            <p>Will hydrogen-fueled cars ever catch up to EVS?</p>
+          </article>
+
+          <article>
+            <h2>The Downside of AI Artistry</h2><br>
+            <p>
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </article>
+
+          <article>
+            <h2>Is Vc Funding Drying Up?</h2><br>
+            <p>
+              Private funding by vc firms is down by 50% YOY.We take a look at
+              what that means.
+            </p>
+          </article>
+        </div>
+
+        <div class="grid-three">
+        <div class="sub-div">
+          <h1>The Bright Future of Web 3.0?</h1>
+        </div>
+
+        <div class="grid-four">
+          <p>
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people.But is it
+            really fulfilling its promise?
+          </p>
+          <button class="read">READ MORE</button>
+
+        </div>
+      </div>
+      </section>
+
+      <div id="grid-container2">
+        <div class="grid-item1">
+          <img src="./assets/images/image-retro-pcs.jpg" />
+          <article id="side">
+            <h1 style="color: hsl(5, 85%, 63%) ;font-weight: bold">01</h1>
+            <h2>Reviving Retro Pcs</h2>
+            <p>What happens when old PCs are given modern upgrades.</p>
+          </article>
+        </div>
+
+        <div class="grid-item1">
+          <img src="./assets/images/image-top-laptops.jpg" />
+          <article id="side">
+            <h1 style="color: hsl(5, 85%, 63%) ;font-weight: bold">02</h1>
+            <h2>Top 10 Laptops of 2022</h2>
+            <p>Our best pick for various needs and budgets.</p>
+          </article>
+        </div>
+
+        <div class="grid-item1">
+          <img src="./assets/images/image-gaming-growth.jpg" />
+          <article id="side">
+            <h1 style="color: hsl(5, 85%, 63%) ; font-weight: bold;" >03</h1>
+            <h2>The Growth of Gaming.</h2>
+            <p>How the pandemic has sparked fresh opportunities</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
