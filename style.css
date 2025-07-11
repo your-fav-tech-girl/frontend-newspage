@@ -1061,7 +1061,7 @@ article:hover {
     width: 100%;
     height: auto;
     max-width:420px;
-    margin:0 0.8rem;
+    margin:0 0.6rem;
 
   }
 
@@ -1069,7 +1069,7 @@ article:hover {
     width: 100%;
     max-width:420px;
     padding:1.5rem 1rem;
-    margin:0 1rem;
+    margin:0 0.6rem;
   }
 
   .grid-three {
